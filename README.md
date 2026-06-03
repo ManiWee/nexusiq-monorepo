@@ -1,0 +1,1 @@
+A platform where teams upload or stream live meetings/audio. The system transcribes the audio, builds a searchable knowledge graph of company decisions, and uses multi-agent AI to autonomously trigger workflows (such as creating Jira tickets, drafting emails, or updating databases) based on what was discussed.
