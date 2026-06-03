@@ -1,0 +1,18 @@
+{
+  "name": "nexusiq-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace=apps/web",
+    "dev:api": "npm run dev --workspace=apps/api",
+    "dev:ai": "npm run dev --workspace=apps/ai",
+    "dev:all": "npx concurrently \"npm run dev:web\" \"npm run dev:api\" \"npm run dev:ai\""
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
